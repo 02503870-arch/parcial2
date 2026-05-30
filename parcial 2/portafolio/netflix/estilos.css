@@ -1,0 +1,106 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: #141414;
+	color: white;
+	font-family: inter;
+	font-size: 1.2rem;
+}
+
+menu img{
+	width: 9%;
+
+}
+
+menu{
+	padding: 15px;
+}
+
+main .contenedor{
+	width: 80%;
+	margin: 0 auto;
+
+}
+
+main .bienvenida{
+	padding: 10px;
+	text-align: center;
+
+}
+
+
+main .perfiles{
+	padding: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+main .perfiles .perfil .foto{
+
+	width: 150px;
+	height: 150px;
+	background: tomato;
+	margin: 10px 0;
+	border: 5px solid #323232;
+
+
+main .perfiles .perfil .foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Esto evita que la foto se distorsione */
+}
+}
+
+main .perfil .foto:hover{
+	border:5px solid white;
+}
+
+main .perfiles .nombre{
+	text-align: center;
+}
+main .boton{
+	text-align: center;
+	margin: 20px 10px;
+}
+main .boton a{
+	color: #7d7d7d;
+	text-decoration: none;
+	border: 2px solid #7d7d7d;
+	padding: 5px 40px;
+	display: inline-block;
+
+}
+main .boton a:hover{
+	color: white;
+	border: 2px solid white;
+	transition: 0.5s;
+}
+
+footer{
+	text-align: center;
+	padding: 30px;
+}
+footer .boton{
+	text-align: center;
+}
+
+footer .boton a{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	background: #0095f5;
+	padding: 5px 15px;
+	border-radius: 5px;
+
+}
+footer .boton a:hover{
+	margin: auto px;
+	background: white;
+	transition: 0,5s;
+	color: black;
+}
+

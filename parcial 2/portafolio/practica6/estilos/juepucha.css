@@ -1,0 +1,59 @@
+body{
+	background: url("../img/fondo.webp"),black;
+	font-family: verdana;
+
+}
+
+div{
+	background: skyblue;
+	width: 70%;
+	margin: 20px auto;
+	padding: 20px;
+	border-radius: 20px;
+	border: 1px solid black;
+
+}
+/*centrar titulo y justificar parrafos en cajaprincipal*/
+
+.cajaprincipal h2{
+	text-align: center;
+}
+
+.cajaprincipal p{
+	text-align: justify;
+}
+
+/*cerrar todo el texto de cajafinal*/
+
+.cajafinal h3{
+	text-align: center;
+}
+
+.cajafinal p{
+	text-align: center;
+}
+
+div:hover{
+	background: lightyellow;
+	color: black;
+}
+
+footer .boton{
+	text-align: center;
+}
+
+footer .boton a{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	background: #0095f5;
+	padding: 5px 15px;
+	border-radius: 5px;
+
+}
+footer .boton a:hover{
+	margin: auto px;
+	background: white;
+	transition: 0,5s;
+	color: black;
+}
